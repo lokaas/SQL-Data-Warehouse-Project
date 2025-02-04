@@ -26,7 +26,7 @@ BEGIN
 			cst_key, 
 			cst_firstname, 
 			cst_lastname, 
-			cst_material_status, 
+			cst_marital_status, 
 			cst_gndr,
 			cst_create_date
 		)
@@ -36,8 +36,8 @@ BEGIN
 			TRIM(cst_firstname) AS cst_firstname, -- Remove leading/trailing spaces
 			TRIM(cst_lastname) AS cst_lastname, -- Remove leading/trailing spaces
 			CASE 
-				WHEN UPPER(TRIM(cst_material_status)) = 'S' THEN 'Single' -- Convert marital status to readable values
-				WHEN UPPER(TRIM(cst_material_status)) = 'M' THEN 'Married'
+				WHEN UPPER(TRIM(cst_marital_status)) = 'S' THEN 'Single' -- Convert marital status to readable values
+				WHEN UPPER(TRIM(cst_marital_status)) = 'M' THEN 'Married'
 				ELSE 'n/a'
 			END AS cst_material_status,
 			CASE 
