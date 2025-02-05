@@ -85,7 +85,6 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
 │   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
@@ -100,9 +99,7 @@ data-warehouse-project/
 ├── tests/                              # Test scripts and quality files
 │
 ├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
+
 ```
 ---
 
@@ -111,7 +108,7 @@ data-warehouse-project/
 
 ## 🌟 About Me
 
-Hi there! I'm **Loka Aref**. I’m an Data Engineer!
+Hi there! I'm **Loka Aref**. I'm a Data Engineer,I am interested in the field of data and looking forward to learning more and doing many projects!
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
 
